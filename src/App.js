@@ -1,6 +1,6 @@
 import './styles/App.scss';
 import './styles/Library.scss';
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Paysage from './pages/categories/paysage';
 import Night from './pages/categories/night';
 import Portrait from './pages/categories/portrait';
