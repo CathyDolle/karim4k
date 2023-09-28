@@ -13,7 +13,7 @@ import Highlights from './pages/highlights';
 // AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis'
 import Header from "./components/Header";
 
 
@@ -22,19 +22,19 @@ function App() {
   
   AOS.init();
 
-  // const lenis = new Lenis()
+  const lenis = new Lenis()
   const location = useLocation();
 
-  // function raf(time) {
-  //   lenis.raf(time)
-  //   requestAnimationFrame(raf)
-  // }
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
 
-  // requestAnimationFrame(raf)
+  requestAnimationFrame(raf)
 
   useEffect(() => {
-    window.scrollTo(0,0)
-  },[location])
+    lenis.scrollTo(0,0)
+  },[location, lenis])
 
   return (
     <>
