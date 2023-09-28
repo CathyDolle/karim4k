@@ -1,3 +1,4 @@
+import Lenis from '@studio-freight/lenis';
 import './styles/App.scss';
 import './styles/Library.scss';
 import { Routes, Route } from "react-router-dom";
@@ -13,8 +14,32 @@ import Highlights from './pages/highlights';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from "./components/Header";
-import { ReactLenis } from '@studio-freight/react-lenis';
 
+
+
+const lenis = new Lenis({
+  duration: 1.8,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
+  direction: 'vertical', // vertical, horizontal
+  gestureDirection: 'vertical', // vertical, horizontal, both
+  smooth: true,
+  mouseMultiplier: 1,
+  smoothTouch: false,
+  touchMultiplier: 2,
+  infinite: false,
+})
+
+// //get scroll value
+// lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => {
+//   console.log({ scroll, limit, velocity, direction, progress })
+// })
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
 
 function App() {
   
@@ -22,7 +47,6 @@ function App() {
 
   return (
     <>
-      <ReactLenis/>
       <Header/>
       <Routes>
         <Route path="/" exact element={<Home />}/>
