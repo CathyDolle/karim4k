@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from '../../components/Header.jsx'
 import Modale from '../../components/Modale.jsx'
 import Footer from '../../components/Footer.jsx'
 import Thumbnail from '../../components/Thumbnail.jsx'
@@ -23,7 +22,6 @@ const Tokyo = () => {
 
     return (
         <div>
-        <Header/>
         <div className="heading">
             <nav>
                 <NavLink className="big" to='/night'>Photo de nuit</NavLink>

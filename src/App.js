@@ -14,6 +14,7 @@ import Highlights from './pages/highlights';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Lenis from '@studio-freight/lenis'
+import Header from "./components/Header";
 
 
 
@@ -39,16 +40,19 @@ function App() {
   requestAnimationFrame(raf)
 
   return (
-    <Routes>
-      <Route path="/" exact element={<Home />}/>
-      <Route path="/paysage" element={<Paysage />}/>
-      <Route path="/night" element={<Night />}/>
-      <Route path="/street" element={<Street />}/>
-      <Route path="/highlights" element={<Highlights />}/>
-      <Route path="/portrait" element={<Portrait />}/>
-      <Route path="/travel" element={<Travel />}/>
-      <Route path="/shop" element={<Shop />}/>
-    </Routes>
+    <>
+      <Header/>
+      <Routes>
+        <Route path="/" exact element={<Home />}/>
+        <Route path="/paysage" element={<Paysage />}/>
+        <Route path="/night" element={<Night />}/>
+        <Route path="/street" element={<Street />}/>
+        <Route path="/highlights" element={<Highlights />}/>
+        <Route path="/portrait" element={<Portrait />}/>
+        <Route path="/travel" element={<Travel />}/>
+        <Route path="/shop" element={<Shop />}/>
+      </Routes>
+    </>
   );
 }
 
