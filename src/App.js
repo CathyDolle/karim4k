@@ -33,7 +33,7 @@ function App() {
   requestAnimationFrame(raf)
 
   useEffect(() => {
-    window.scrollTo(0,0)
+    lenis.scrollTo(0,0)
   },[location])
 
   return (
