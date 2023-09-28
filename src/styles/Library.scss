@@ -133,3 +133,12 @@ p {
         opacity: 1;
     }
 }
+
+@keyframes zoomIn{
+    0%{
+        scale: 1;
+    }
+    100%{
+       scale: 1.08;
+    }
+}
