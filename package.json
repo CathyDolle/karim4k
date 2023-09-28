@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@studio-freight/lenis": "^1.0.24",
+    "@studio-freight/react-lenis": "^0.0.36",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
