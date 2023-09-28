@@ -21,6 +21,7 @@ import Header from "./components/Header";
 function App() {
   
   AOS.init();
+  
   const lenis = new Lenis()
   const location = useLocation();
 
