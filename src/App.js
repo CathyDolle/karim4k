@@ -1,4 +1,4 @@
-import Lenis from '@studio-freight/lenis'
+// import Lenis from '@studio-freight/lenis'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './styles/App.scss';
@@ -11,6 +11,7 @@ import Travel from './pages/categories/travel';
 import Street from './pages/categories/street';
 import Shop from './pages/shop';
 import Home from './Home';
+import Highlights from './pages/highlights';
 import { useEffect } from "react";
 
 
@@ -19,18 +20,19 @@ AOS.init()
 
 
 function App() {
-  const lenis = new Lenis()
+  
+  // const lenis = new Lenis()
 
-  lenis.on('scroll', (e) => {
-    console.log(e)
-  })
+  // lenis.on('scroll', (e) => {
+  //   console.log(e)
+  // })
 
-  function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-  }
+  // function raf(time) {
+  //   lenis.raf(time)
+  //   requestAnimationFrame(raf)
+  // }
 
-  requestAnimationFrame(raf)
+  // requestAnimationFrame(raf)
 
   const location = useLocation();
 
@@ -45,6 +47,7 @@ function App() {
       <Route path="/paysage" element={<Paysage />}/>
       <Route path="/night" element={<Night />}/>
       <Route path="/street" element={<Street />}/>
+      <Route path="/highlights" element={<Highlights />}/>
       <Route path="/portrait" element={<Portrait />}/>
       <Route path="/travel" element={<Travel />}/>
       <Route path="/shop" element={<Shop />}/>
