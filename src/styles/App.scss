@@ -75,6 +75,8 @@ footer{
         // height: 100%;
         object-fit: cover;
         border: solid 4px rgb(255, 255, 255);
+        animation-name: fadeAnimation;
+        animation-duration: 0.8s;
     }
     .infos{
         width: 100%;
