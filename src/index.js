@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
+import { ReactLenis } from '@studio-freight/react-lenis';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ReactLenis/>
     <BrowserRouter>
+    <ScrollToTop/>
       <App />
     </BrowserRouter>
   </React.StrictMode>
