@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     lenis.scrollTo(0,0)
-  },[location])
+  },[lenis, location])
 
   return (
     <>
