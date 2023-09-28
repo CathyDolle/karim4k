@@ -208,6 +208,9 @@ section.highlights{
         width: 50%;
         .thumbnail{
             width: 80%;
+            .infos{
+                display: none;
+            }
         }
         @media (max-width: 900px) {
             width: 100%;
