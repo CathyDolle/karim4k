@@ -46,7 +46,7 @@ const Street = () => {
         <Header/>
         <div className="heading">
             <nav>
-                <NavLink className="big" to='/paysage'>Paysage</NavLink>
+                <NavLink className="big" to='/paysage'>Photo de rue</NavLink>
                 <NavLink to='/night'>night</NavLink>
                 <NavLink to='/travel'>travel</NavLink>
                 <NavLink to='/portrait'>portrait</NavLink>

@@ -10,6 +10,7 @@ const Header = () => {
             </NavLink>
             <nav>
                 <NavLink className="nav" end to="/">Home</NavLink>
+                <NavLink className="nav" to="/paysage">Gallery</NavLink>
                 <NavLink className="nav" to="/shop">Shop</NavLink>
             </nav>
         </header>

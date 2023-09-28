@@ -35,6 +35,7 @@ header, footer{
     mix-blend-mode: difference;
     a, p{
         color: white !important;
+        margin: 10px 0;
     }
     p{
         opacity: 0.5;
@@ -343,6 +344,7 @@ section.modale{
         height: 90%;
         max-width: 90%;
         object-fit: contain;
+        z-index: 3;
     }
     button{
         position: absolute;

@@ -14,7 +14,7 @@ function Home() {
         <img src={background} alt="img"/>
         <p>Karim 4K pour des photos en 4K</p>
       </main>
-      <Gallery/>
+      <Gallery id="Gallery"/>
       <Highlights/>
       <Footer/>
     </section>
