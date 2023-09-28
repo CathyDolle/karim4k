@@ -13,6 +13,8 @@ import Highlights from './pages/highlights';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from "./components/Header";
+import { ReactLenis } from '@studio-freight/react-lenis';
+
 
 function App() {
   
@@ -20,6 +22,7 @@ function App() {
 
   return (
     <>
+      <ReactLenis/>
       <Header/>
       <Routes>
         <Route path="/" exact element={<Home />}/>
