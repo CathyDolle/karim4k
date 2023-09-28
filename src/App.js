@@ -26,7 +26,8 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0,0)
+    const lenis = new Lenis()
+    lenis.scrollTo(0,0)
   },[location])
 
   function raf(time) {
