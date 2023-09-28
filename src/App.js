@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Lenis from '@studio-freight/lenis'
 import Header from "./components/Header";
+import { ReactLenis } from "@studio-freight/react-lenis";
 
 
 
@@ -37,7 +38,7 @@ function App() {
   },[lenis, location])
 
   return (
-    <>
+    <ReactLenis root>
       <Header/>
       <Routes>
         <Route path="/" exact element={<Home />}/>
@@ -49,7 +50,7 @@ function App() {
         <Route path="/travel" element={<Travel />}/>
         <Route path="/shop" element={<Shop />}/>
       </Routes>
-    </>
+    </ReactLenis>
   );
 }
 
