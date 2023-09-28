@@ -252,7 +252,7 @@ div.heading{
             opacity: 0.5;
             width: auto;
             margin-bottom: 7px;
-            text-transform: uppercase;
+            text-transform:capitalize;
             transition: opacity 0.4s;
             @media (max-width: 700px) {
                 margin-bottom: 4px;
@@ -307,11 +307,15 @@ section.category{
     }
     &.size3{
         grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 16px;
         @media (max-width: 700px) {
             grid-template-columns: repeat(1, minmax(0, 1fr));
         } 
     }
         .thumbnail{
+            .infos{
+                display: none;
+            }
             img{
                 height: 100%;
          }
