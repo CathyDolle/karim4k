@@ -21,12 +21,13 @@ import Header from "./components/Header";
 function App() {
   
   AOS.init();
+  const lenis = new Lenis()
+  
   const location = useLocation();
   useEffect(() => {
     lenis.scrollTo(0,0)
   },[location])
 
-  const lenis = new Lenis()
 
   lenis.on('scroll', (e) => {
     console.log(e)
