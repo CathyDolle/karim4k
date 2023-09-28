@@ -26,7 +26,7 @@ const highlights = () => {
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img6}/>
+            <Thumbnail title="image 1"  number="001" name={img4}/>
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_bottom">
@@ -34,19 +34,19 @@ const highlights = () => {
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img4}/>
+            <Thumbnail title="image 1"  number="001" name={img6}/>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className="margin_bottom">
+            <Thumbnail title="image 1"  number="001" name={img8}/>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className="margin_top">
+            <Thumbnail title="image 1"  number="001" name={img9}/>
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img7}/>
-        </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img8}/>
-        </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
-            <Thumbnail title="image 1"  number="001" name={img9}/>
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_top">
@@ -66,10 +66,6 @@ const highlights = () => {
         </div>
         <div data-aos="fade-up"
      data-aos-duration="1000" className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img14}/>
-        </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img15}/>
         </div>
     </section>
