@@ -19,6 +19,11 @@ body {
     /* Hide scrollbars */
 }
 
+section{
+    animation: fadeAnimation;
+    animation-duration: 1s;
+}
+
 /* Fonts */
 
 @font-face {
@@ -115,4 +120,13 @@ p {
     @media (min-width: 2000px) {
         font-size: 24px;
     } 
+}
+
+@keyframes fadeAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
