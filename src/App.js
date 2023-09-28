@@ -10,11 +10,13 @@ import Street from './pages/categories/street';
 import Shop from './pages/shop';
 import Home from './Home';
 import Highlights from './pages/highlights';
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import Lenis from '@studio-freight/lenis'
 
-
 function App() {
-
+  AOS.init();
   const location = useLocation();
 
   useEffect(() => {

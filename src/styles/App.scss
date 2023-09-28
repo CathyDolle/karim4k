@@ -1,11 +1,24 @@
 header, footer{
+    position: fixed;
+    padding: 0 8vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    z-index: 3;
+    padding-top: 40px;
+    mix-blend-mode: difference;
+    a, p{
+        color: white !important;
+        margin: 10px 0;
+        font-size: 12px;
+        @media (min-width: 2000px) {
+            font-size: 24px;
+        } 
+    }
     p{
+        opacity: 0.5;
         line-height: 0;
-        
     }
     nav{
         a{
@@ -17,6 +30,9 @@ header, footer{
         p, h4{
             display: none;
         }
+        h4{
+            margin-bottom: 18px;
+        }
         nav{
             a{
                 margin: 0 20px;
@@ -25,31 +41,6 @@ header, footer{
     } 
 }
 
-
-header, footer{
-    position: fixed;
-    width: 100vw;
-    padding: 0 8vw;
-    z-index: 3;
-    padding-top: 40px;
-    mix-blend-mode: difference;
-    @media (min-width: 2000px) {
-        h4{
-            margin-bottom: 18px;
-        }
-    } 
-    a, p{
-        color: white !important;
-        margin: 10px 0;
-        font-size: 12px;
-        @media (min-width: 2000px) {
-            font-size: 24px;
-        } 
-    }
-    p{
-        opacity: 0.5;
-    }
-}
 
 header{
     top: 0;
