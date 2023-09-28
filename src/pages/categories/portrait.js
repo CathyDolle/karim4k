@@ -17,7 +17,6 @@ import img10 from '../../img/Portrait/LaureMSI.jpg'
 import img11 from '../../img/Portrait/MSI2023.jpg'
 import img12 from '../../img/Portrait/Noemie1.jpg'
 import img13 from '../../img/Portrait/Noemie2.jpg'
-import img14 from '../../img/Portrait/Noemie2.jpg'
 import img15 from '../../img/Portrait/Noemie3.jpg'
 import img16 from '../../img/Portrait/NoiMSI.jpg'
 import img17 from '../../img/Portrait/ShootMerch1.jpg'
@@ -63,7 +62,6 @@ const Tokyo = () => {
             <Thumbnail onClick={()=> setImg(img11)} title="Yosemite"  number="11" name={img11}/>
             <Thumbnail onClick={()=> setImg(img12)} title="Yosemite"  number="12" name={img12}/>
             <Thumbnail onClick={()=> setImg(img13)} title="Yosemite"  number="13" name={img13}/>
-            <Thumbnail onClick={()=> setImg(img14)} title="Yosemite"  number="13" name={img14}/>
             <Thumbnail onClick={()=> setImg(img15)} title="Yosemite"  number="13" name={img15}/>
             <Thumbnail onClick={()=> setImg(img16)} title="Yosemite"  number="13" name={img16}/>
             <Thumbnail onClick={()=> setImg(img17)} title="Yosemite"  number="13" name={img17}/>
