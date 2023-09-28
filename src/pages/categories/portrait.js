@@ -43,7 +43,7 @@ const Tokyo = () => {
                 <NavLink className="big" to='/portrait'>Portrait</NavLink>
                 <NavLink to='/night'>night</NavLink>
                 <NavLink to='/travel'>travel</NavLink>
-                <NavLink to='/portrait'>portrait</NavLink>
+                <NavLink to='/paysage'>paysage</NavLink>
                 <NavLink to='/street'>street</NavLink>
             </nav>
             
