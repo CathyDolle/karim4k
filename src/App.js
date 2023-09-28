@@ -1,6 +1,4 @@
-// import Lenis from '@studio-freight/lenis'
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { useEffect } from "react";
 import './styles/App.scss';
 import './styles/Library.scss';
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -12,34 +10,16 @@ import Street from './pages/categories/street';
 import Shop from './pages/shop';
 import Home from './Home';
 import Highlights from './pages/highlights';
-import { useEffect } from "react";
-
-
-AOS.init()
-
+// import Lenis from '@studio-freight/lenis'
 
 
 function App() {
-  
-  // const lenis = new Lenis()
-
-  // lenis.on('scroll', (e) => {
-  //   console.log(e)
-  // })
-
-  // function raf(time) {
-  //   lenis.raf(time)
-  //   requestAnimationFrame(raf)
-  // }
-
-  // requestAnimationFrame(raf)
 
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0,0)
   },[location])
-
 
   return (
     <Routes>
