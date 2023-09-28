@@ -115,10 +115,12 @@ section.gallery{
     margin-top: 20vh;
     .desc{
         display: flex;
-        height: 20vh;
-        align-items: center;
+        margin-bottom: 80px;
+        align-items: flex-end;
         p{
             width: 30%;
+            margin: 0;
+            margin-bottom: 10px;
         }
         h1{
             margin-right: 80px;
@@ -132,9 +134,12 @@ section.gallery{
             h1, p{
                 width: 100%;
             }
+            h1{
+                margin-bottom: 16px;
+            }
             flex-wrap: wrap;
             height: auto;
-            margin-bottom: 24px;
+            margin-bottom: 64px;
         } 
     }
     .categories{
