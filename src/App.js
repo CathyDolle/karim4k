@@ -22,16 +22,11 @@ function App() {
   
   AOS.init();
   const lenis = new Lenis()
-  
+
   const location = useLocation();
   useEffect(() => {
     lenis.scrollTo(0,0)
   },[location])
-
-
-  lenis.on('scroll', (e) => {
-    console.log(e)
-  })
 
   function raf(time) {
     lenis.raf(time)
