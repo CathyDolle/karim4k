@@ -46,11 +46,11 @@ const Street = () => {
         <Header/>
         <div className="heading">
             <nav>
-                <NavLink className="big" to='/paysage'>Photo de rue</NavLink>
+                <NavLink className="big" to='/street'>Photo de rue</NavLink>
                 <NavLink to='/night'>night</NavLink>
                 <NavLink to='/travel'>travel</NavLink>
                 <NavLink to='/portrait'>portrait</NavLink>
-                <NavLink to='/street'>street</NavLink>
+                <NavLink to='/paysage'>paysage</NavLink>
             </nav>
             
             <GridFilter gridClass={gridClass} setGridClass={setGridClass}/>
