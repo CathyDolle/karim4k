@@ -315,7 +315,7 @@ section.category{
     }
     &.size3{
         grid-template-columns: repeat(6, minmax(0, 1fr));
-        gap: 16px;
+        gap: 8px;
         @media (max-width: 700px) {
             grid-template-columns: repeat(1, minmax(0, 1fr));
         } 
