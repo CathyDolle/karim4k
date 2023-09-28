@@ -1,0 +1,118 @@
+.hideScrollbar{
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    // background-color: black;
+    font-family: 'Neue Montreal';
+    color: #282828;
+    overflow-x: hidden;
+    padding: 0 8vw;
+    /* Hide scrollbars */
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('./../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('./../fonts/NeueMontreal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Library */
+
+h1,
+h2 {
+    font-family: 'Neue Montreal';
+    font-size: 64px;
+    font-weight: 100;
+    margin: 0;
+
+    @media (max-width: 800px) {
+        font-size: 60px;
+    }
+    @media (min-width: 2000px) {
+        font-size: 72px;
+    } 
+}
+
+h3 {
+    font-family: 'Neue Montreal';
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Neue Montreal';
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+    @media (min-width: 2000px) {
+        font-size: 38px;
+    } 
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #282828;
+}
+
+a.nav {
+    position: relative;
+    text-decoration: none;
+    font-size: 12px;
+    color: #282828;
+    &::after{
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        content: ('');
+        width: 0%;
+        border: solid 0.5px #28282800;
+        transition: width 0.4s;
+    }
+    &.active, &:hover{
+        &::after{
+            width: 60%;
+            border: solid 0.5px white;
+        }
+    }
+    @media (min-width: 2000px) {
+        font-size: 24px;
+    } 
+}
+
+a.button{
+    padding: 12px 32px;
+    border: solid 0.5px black;
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: rgb(31, 31, 31);
+        color: white;
+    }
+    @media (min-width: 2000px) {
+        font-size: 18px;
+    } 
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #898989;
+    @media (min-width: 2000px) {
+        font-size: 24px;
+    } 
+}
