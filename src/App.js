@@ -30,11 +30,11 @@ function App() {
     requestAnimationFrame(raf)
   }
 
-  requestAnimationFrame(raf)
-
   useEffect(() => {
     lenis.scrollTo(0,0)
   },[location])
+
+  requestAnimationFrame(raf)
 
 
   return (
