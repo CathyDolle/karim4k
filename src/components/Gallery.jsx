@@ -9,12 +9,12 @@ import img5 from '../img/Travel/cover.jpg'
 
 const Gallery = () => {
     return (
-        <section className="gallery">
+        <section data-aos="fade-up" data-aos-duration="1000" className="gallery">
                 <div className="desc">
                     <h1>Gallery</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className="categories">
+                <div className="categories">
                     <NavLink className="category"  to="/paysage">
                     <Thumbnail title="Paysage"  number="(13)" name={img1}/>
                     </NavLink>

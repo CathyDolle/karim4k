@@ -17,54 +17,42 @@ import img15 from '../img/Best/Yosemite.jpg'
 const highlights = () => {
       
     return (
-        <section className="highlights">
+        <section data-aos="fade-up" data-aos-duration="1000" className="highlights">
         <h1>Highlights</h1>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img5}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img4}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img3}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img6}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img8}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img9}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img7}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img10}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img11}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img12}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_bottom">
+        <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img13}/>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="margin_top">
+        <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img15}/>
         </div>
     </section>
