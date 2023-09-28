@@ -19,7 +19,7 @@ body {
     /* Hide scrollbars */
 }
 
-section{
+section.highlights, section.gallery, main{
     animation: fadeAnimation;
     animation-duration: 0.6s;
 }
