@@ -25,17 +25,17 @@ function App() {
   const lenis = new Lenis()
   const location = useLocation();
 
-  useEffect(() => {
-    const lenis = new Lenis()
-    lenis.scrollTo(0,0)
-  },[location])
-
   function raf(time) {
     lenis.raf(time)
     requestAnimationFrame(raf)
   }
 
   requestAnimationFrame(raf)
+
+  useEffect(() => {
+    lenis.scrollTo(0,0)
+  },[location])
+
 
   return (
     <>
