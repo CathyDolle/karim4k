@@ -11,12 +11,16 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #e8e8e8;
-    // background-color: black;
     font-family: 'Neue Montreal';
     color: #282828;
     overflow-x: hidden;
     padding: 0 8vw;
     /* Hide scrollbars */
+    transition: background-color 0.4s;
+    &.darkMode{
+        background-color: rgb(3, 3, 3);
+        color: white;
+    }
 }
 
 section.highlights, section.gallery, main{
@@ -43,7 +47,6 @@ h2 {
     font-size: 64px;
     font-weight: 100;
     margin: 0;
-
     @media (max-width: 800px) {
         font-size: 60px;
     }

@@ -13,15 +13,30 @@ import Highlights from './pages/highlights';
 // AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis'
+
+
 
 function App() {
+  
   AOS.init();
   const location = useLocation();
-
   useEffect(() => {
-    window.scrollTo(0,0)
+    lenis.scrollTo(0,0)
   },[location])
+
+  const lenis = new Lenis()
+
+  lenis.on('scroll', (e) => {
+    console.log(e)
+  })
+
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)
 
   return (
     <Routes>

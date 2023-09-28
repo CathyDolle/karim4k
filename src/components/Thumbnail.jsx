@@ -26,7 +26,7 @@ function Thumbnail(thumb) {
                         punch={1}
                     />
                 </div>
-                <img style={{ display: !imgLoaded ? 'none' : 'inline'}}className={thumb.class} loading="lazy" src={thumb.name} alt="img"/>
+                <img style={{ display: !imgLoaded ? 'none' : 'inline'}} className={thumb.class + ' border'} loading="lazy" src={thumb.name} alt="img"/>
             </>
             <div className="infos">
                 <p>{thumb.title}</p>
