@@ -8,6 +8,7 @@ header, footer{
     z-index: 3;
     padding-top: 40px;
     mix-blend-mode: difference;
+    background-color: none;
     a, p{
         color: white !important;
         margin: 10px 0;
@@ -421,4 +422,7 @@ section.modale{
     &.show{
         opacity: 1;
     }
+    @media (max-width: 700px) {
+        display: none;
+    } 
 }
