@@ -11,7 +11,6 @@ import img10 from '../img/Best/Rotterdam3.jpg'
 import img11 from '../img/Best/Rotterdam4.jpg'
 import img12 from '../img/Best/Rotterdam5.jpg'
 import img13 from '../img/Best/Rotterdam6.jpg'
-import img14 from '../img/Best/Rotterdam7.jpg'
 import img15 from '../img/Best/Yosemite.jpg'
 
 
