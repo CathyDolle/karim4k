@@ -1,17 +1,18 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
+import { useLenis } from "@studio-freight/react-lenis";
 
-export default function ScrollToTop({ children }) {
+const ScrollToTop = ({ children }) => {
   const { pathname } = useLocation();
-  
-  useEffect(() => {
-    const canControlScrollRestoration = 'scrollRestoration' in window.history
-    if (canControlScrollRestoration) {
-      window.history.scrollRestoration = 'manual';
-    }
+  const lenis = useLenis();
 
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  
-  return children;
-}
+  useEffect(() => {
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    }
+  }, [pathname, lenis]);
+
+  return null;
+};
+
+export default ScrollToTop;
