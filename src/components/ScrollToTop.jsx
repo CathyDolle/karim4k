@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router";
 import { useLenis } from "@studio-freight/react-lenis";
 
-const ScrollToTop = ({ children }) => {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
   const lenis = useLenis();
 
