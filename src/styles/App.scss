@@ -116,7 +116,7 @@ main{
     }
     img{
         width: 100%;
-        height: 100%;
+        height: 100vh;
         object-fit: cover;
         animation-name: zoomIn;
         animation-duration: 1s;

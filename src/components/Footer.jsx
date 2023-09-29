@@ -9,7 +9,7 @@ const Footer = () => {
                 <a href='mailto:agadowe@gmail.com' target="_blank" rel="noreferrer">Mail</a>
             </nav>
             <div>
-                <p>Design and Dev with ❥ by <a href="https://twitter.com/cathydolle" target="_blank" rel="noreferrer">Katy</a></p>
+                <p>Design and Dev with ❥ by <a href="https://twitter.com/cathydolle" target="_blank" rel="noreferrer">Katy_v4</a></p>
             </div>
         </footer>
     );
