@@ -38,7 +38,7 @@ header, footer{
     @media (min-width: 2000px) {
         nav{
             a{
-                margin: 0 32px !important;
+                margin: 0 26px !important;
             }
         }
     } 
@@ -72,7 +72,7 @@ footer{
             margin-left: 0px;
             margin-right: 24px;
             @media (min-width: 2000px) {
-                margin-right: 32px;
+                margin-right: 26px;
             } 
         }
     }
@@ -196,8 +196,8 @@ section.gallery{
         grid-template-columns: repeat(5, minmax(0, 1fr));
         gap:16px;
         .category{
-            aspect-ratio: 1/1;
             .thumbnail{
+                aspect-ratio: 1/1;
                 img{
                     height: 100%;
                 }
@@ -205,7 +205,7 @@ section.gallery{
         }
         @media (max-width: 1200px) {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 16px;
         } 
         @media (max-width: 700px) {
