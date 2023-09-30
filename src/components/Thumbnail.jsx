@@ -30,7 +30,6 @@ function Thumbnail(thumb) {
             </>
             <div className="infos">
                 <p>{thumb.title}</p>
-                <p>{thumb.number}</p>
             </div>
         </div>
     );

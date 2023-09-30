@@ -12,26 +12,25 @@ const Gallery = () => {
         <section data-aos="fade-up" data-aos-duration="1000" className="gallery">
                 <div className="desc">
                     <h1>Gallery</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="categories">
                     <NavLink className="category"  to="/paysage">
-                    <Thumbnail title="Paysage"  number="(13)" name={img1}/>
+                    <Thumbnail title="Paysage"  name={img1}/>
                     </NavLink>
                     <NavLink className="category"  to="/night">
-                    <Thumbnail title="Photo de nuit"  number="(06)" name={img2}/>
+                    <Thumbnail title="Photo de nuit"  name={img2}/>
                     </NavLink>
 
                     <NavLink className="category"  to="/street">
-                    <Thumbnail title="Photo de rue"  number="(04)" name={img3}/>
+                    <Thumbnail title="Photo de rue" name={img3}/>
                     </NavLink>
 
                     <NavLink className="category"  to="/portrait">
-                    <Thumbnail title="Portrait"  number="(07)" name={img4}/>
+                    <Thumbnail title="Portrait"  name={img4}/>
                     </NavLink>
 
                     <NavLink className="category"  to="/travel">
-                    <Thumbnail title="Voyage"  number="(07)" name={img5}/>
+                    <Thumbnail title="Voyage" name={img5}/>
                     </NavLink>
                 </div>
             </section>

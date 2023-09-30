@@ -15,6 +15,7 @@ header, footer{
         font-size: 12px;
         @media (min-width: 2000px) {
             font-size: 24px;
+            margin: 16px 0;
         } 
     }
     p{
@@ -83,6 +84,7 @@ footer{
         }
     }
     .infos{
+        margin-top: 4px;
         width: 100%;
         display: flex;
         justify-content: space-between;
