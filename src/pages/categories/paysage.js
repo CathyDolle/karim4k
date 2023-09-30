@@ -7,7 +7,6 @@ import img1 from '../../img/Paysage/Annecy.jpg'
 import img2 from '../../img/Paysage/Annecy(1).jpg'
 import img3 from '../../img/Paysage/Annecy(2).jpg'
 import img4 from '../../img/Paysage/Annecy(3).jpg'
-import img5 from '../../img/Paysage/Annecy(4).jpg'
 import img6 from '../../img/Paysage/Annecy(5).jpg'
 import img7 from '../../img/Paysage/Annecy(6).jpg'
 import img8 from '../../img/Paysage/Annecy(7).jpg'
@@ -44,7 +43,6 @@ const Tokyo = () => {
         <section className={"category " + gridClass}>
             <Thumbnail onClick={()=> setImg(img1)} title="Annecy"  number="01" name={img1}/>
             <Thumbnail onClick={()=> setImg(img2)} title="Annecy"  number="02" name={img2}/>
-            <Thumbnail onClick={()=> setImg(img5)} title="Annecy"  number="05" name={img5}/>
             <Thumbnail onClick={()=> setImg(img6)} title="Annecy"  number="06" name={img6}/>
             <Thumbnail onClick={()=> setImg(img7)} title="Annecy"  number="07" name={img7}/>
             <Thumbnail onClick={()=> setImg(img8)} title="Annecy"  number="08" name={img8}/>

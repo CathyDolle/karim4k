@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header>
             <NavLink to="/">
-                <h4>Karim 4K</h4>
+                <h4>Karim Bbahla</h4>
                 <p>Photography</p>
             </NavLink>
             <nav>
