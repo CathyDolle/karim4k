@@ -25,7 +25,7 @@ const Tokyo = () => {
         <div className="heading">
             <nav>
                 <NavLink className="big" to='/night'>Photo de nuit</NavLink>
-                <NavLink to='/paysage'>paysage</NavLink>
+                <NavLink to='/paysage'>landscape</NavLink>
                 <NavLink to='/travel'>travel</NavLink>
                 <NavLink to='/portrait'>portrait</NavLink>
                 <NavLink to='/street'>street</NavLink>

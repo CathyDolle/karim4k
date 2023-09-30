@@ -33,7 +33,7 @@ const Travel = () => {
             <nav>
                 <NavLink className="big" to='/travel'>Travel</NavLink>
                 <NavLink to='/night'>night</NavLink>
-                <NavLink to='/paysage'>paysage</NavLink>
+                <NavLink to='/paysage'>landscape</NavLink>
                 <NavLink to='/portrait'>portrait</NavLink>
                 <NavLink to='/street'>street</NavLink>
             </nav>

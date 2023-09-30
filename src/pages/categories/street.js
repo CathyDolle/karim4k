@@ -48,7 +48,7 @@ const Street = () => {
                 <NavLink to='/night'>night</NavLink>
                 <NavLink to='/travel'>travel</NavLink>
                 <NavLink to='/portrait'>portrait</NavLink>
-                <NavLink to='/paysage'>paysage</NavLink>
+                <NavLink to='/paysage'>landscape</NavLink>
             </nav>
             
             <GridFilter gridClass={gridClass} setGridClass={setGridClass}/>
