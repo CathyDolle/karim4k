@@ -13,8 +13,7 @@ const Header = () => {
     return (
         <header>
             <NavLink to="/">
-                <h4>Karim Bbahla</h4>
-                <p>Photography</p>
+                <h4>KB</h4>
             </NavLink>
             <nav>
                 <NavLink className="nav" end to="/">Home</NavLink>

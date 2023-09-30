@@ -10,7 +10,10 @@ function Home() {
       <main>
         <div className="black_filter"/>
         <img src={background} alt="img"/>
-        <p>Karim 4K pour des photos en 4K<br/>(SCROLL TO DISCOVER)</p>
+        <div className="intro">
+          <h1>Karim Bbahla</h1>
+          <p>Photography</p>
+        </div>
       </main>
       <Gallery id="Gallery"/>
       <Highlights/>
