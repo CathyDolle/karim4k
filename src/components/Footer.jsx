@@ -8,9 +8,9 @@ const Footer = () => {
                 <a href="https://www.instagram.com/karim4kb/" target="_blank" rel="noreferrer">Instagram</a>
                 <a href='mailto:agadowe@gmail.com' target="_blank" rel="noreferrer">Mail</a>
             </nav>
-            <div>
+            {/* <div>
                 <p>Design and Dev with ❥ by <a href="https://twitter.com/cathydolle" target="_blank" rel="noreferrer">Katy_v4</a></p>
-            </div>
+            </div> */}
         </footer>
     );
 };
