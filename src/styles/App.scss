@@ -29,10 +29,13 @@ header, footer{
         }
         .theme{
             cursor: pointer;
-            width: 10px;
-            height: 10px;
-            background-color: white;
-            border-radius: 90px;
+            width: 18px;
+            height: 18px;
+            background-image: url('./../img/Icons/sun.svg');
+            background-size: cover;
+            .darkMode & {
+                background-image: url('./../img/Icons/moon.svg');
+            }
         }
     }
     @media (min-width: 2000px) {
