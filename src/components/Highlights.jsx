@@ -18,7 +18,7 @@ const highlights = () => {
       
     return (
         <section data-aos="fade-up" data-aos-duration="1000" className="highlights">
-        <h1>Highlights</h1>
+        <h1>Sélection</h1>
         <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img5}/>
         </div>
