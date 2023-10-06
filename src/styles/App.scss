@@ -14,7 +14,7 @@ header, footer{
         margin: 10px 0;
         font-size: 12px;
         @media (min-width: 2000px) {
-            font-size: 24px;
+            font-size: 16px;
         } 
     }
     p{
@@ -41,7 +41,7 @@ header, footer{
     @media (min-width: 2000px) {
         nav{
             a{
-                margin: 0 26px !important;
+                margin: 0 20px !important;
             }
         }
     } 
@@ -112,7 +112,7 @@ footer{
                 text-align: right;
             }
             @media (min-width: 2000px) {
-                font-size: 24px;
+                font-size: 16px;
             } 
         }
     }
