@@ -238,7 +238,7 @@ section.highlights{
     padding: 0 8vw;
     .thumbnail{
         aspect-ratio: auto;
-        overflow: auto;
+        overflow: hidden;
         img{
             height: 100%;
         }
