@@ -157,26 +157,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h1{
-        text-transform: inherit;
-        font-size: 64px;
-        color: white;
-        @media (max-width: 700px) {
-            font-size: 40px;
-        } 
-        @media (min-width: 2000px) {
-            font-size: 80px;
-        } 
-    }
-    p{
-        color: white;
-        text-align: center;
-        opacity: 0.4;
-        font-size: 16px;
-        margin: 4px 0;
-        @media (min-width: 2000px) {
-            font-size: 24px;
-        } 
+    img{
+        width: 30vw;
+        @media (max-width: 900px) {
+            width: 60vw;
+        }
     }
 }
 

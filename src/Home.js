@@ -2,6 +2,7 @@ import './styles/App.scss';
 import Footer from './components/Footer.jsx'
 import Gallery from './components/Gallery.jsx'
 import Highlights from './components/Highlights';
+import karim from './img/karim.png'
 import { Parallax, Background } from 'react-parallax';
 
 function Home() {
@@ -12,8 +13,7 @@ function Home() {
           <div className="black_filter"/>
         </Background>
         <div className="intro">
-          <h1>Karim Bbahla</h1>
-          <p>Photography</p>
+          <img src={karim} alt='img'/>
         </div>
       </Parallax>
       <Parallax strength={600}>

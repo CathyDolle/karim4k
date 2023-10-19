@@ -20,13 +20,13 @@ const highlights = () => {
         <section data-aos="fade-up" data-aos-duration="1000" className="highlights">
         <h1>Sélection</h1>
         <div className="margin_bottom">
-            <Thumbnail title="image 1"  number="001" name={img5}/>
+            <Thumbnail title="image 1"  number="001" name={img3}/>
         </div>
         <div className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img4}/>
+            <Thumbnail title="image 1"  number="001" name={img12}/>
         </div>
         <div className="margin_bottom">
-            <Thumbnail title="image 1"  number="001" name={img3}/>
+            <Thumbnail title="image 1"  number="001" name={img7}/>
         </div>
         <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img6}/>
@@ -38,8 +38,9 @@ const highlights = () => {
             <Thumbnail title="image 1"  number="001" name={img9}/>
         </div>
         <div className="margin_bottom">
-            <Thumbnail title="image 1"  number="001" name={img7}/>
+            <Thumbnail title="image 1"  number="001" name={img5}/>
         </div>
+
         <div className="margin_top">
             <Thumbnail title="image 1"  number="001" name={img10}/>
         </div>
@@ -47,8 +48,10 @@ const highlights = () => {
             <Thumbnail title="image 1"  number="001" name={img11}/>
         </div>
         <div className="margin_top">
-            <Thumbnail title="image 1"  number="001" name={img12}/>
+            <Thumbnail title="image 1"  number="001" name={img4}/>
         </div>
+
+
         <div className="margin_bottom">
             <Thumbnail title="image 1"  number="001" name={img13}/>
         </div>
